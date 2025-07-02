@@ -1,0 +1,221 @@
+@import "custom/fonts/fonts";
+
+:root {
+
+
+    --primary-bg-color: #e72a1a;
+    --primary-bg-hover: #d72213;
+    --primary-bg-border: #e72a1a;
+	--primary-bg-transparentcolor:rgba(231, 42, 26, 0.2);
+	--primary-shadow:rgba(249, 100, 121, 0.5);
+	--secondary-color: #8d0bb7;
+	--secondary-hover: #a428cd;
+	--secondary-transparent:rgba(141, 11, 183, 0.2);
+	--secondary-shadow: rgba(47, 12, 108, 0.5);
+	--dark-body: #2a2e3f;
+	--dark-theme: #212332;
+	--dark-theme2: rgba(0, 0, 0, 0.3);
+	--dark-border: rgba(255, 255, 255, 0.1);
+	--dark-color:#fff;
+	--dark-shadow:rgba(36, 38, 48, 0.2);
+    --primary-1: rgba(231, 42, 26, 0.1);
+    --primary-2: rgba(231, 42, 26, 0.2);
+    --primary-3: rgba(231, 42, 26, 0.3);
+    --primary-4: rgba(231, 42, 26, 0.4);
+    --primary-5: rgba(231, 42, 26, 0.5);
+    --primary-6: rgba(231, 42, 26, 0.6);
+    --primary-7: rgba(231, 42, 26, 0.7);
+    --primary-8: rgba(231, 42, 26, 0.8);
+    --primary-9: rgba(231, 42, 26, 0.9);
+    --secondary-1: rgba(141, 11, 183, 0.1);
+    --secondary-2: rgba(141, 11, 183, 0.2);
+    --secondary-3: rgba(141, 11, 183, 0.3);
+    --secondary-4: rgba(141, 11, 183, 0.4);
+    --secondary-5: rgba(141, 11, 183, 0.5);
+    --secondary-6: rgba(141, 11, 183, 0.6);
+    --secondary-7: rgba(141, 11, 183, 0.7);
+    --secondary-8: rgba(141, 11, 183, 0.8);
+    --secondary-9: rgba(141, 11, 183, 0.9);
+	--white: $white;
+	--gray: $gray;
+	--gray-dark: $gray-dark;
+	--black: $black;
+	--azure: $info;
+	--lime: $lime;
+	--lightpink-red: #ff7088;
+	--lightgreen: #26eda2;
+	--blue: #4049ec;
+	--indigo: $indigo;
+	--purple: $purple;
+	--pink: $pink;
+	--red: $danger;
+	--orange: $orange;
+	--yellow: $yellow;
+	--green: $green;
+	--teal: $teal;
+	--cyan: $cyan;
+	--primary: #6963ff;
+	--secondary: #f6f7fb;
+	--success: $success;
+	--info: $info;
+	--warning: $yellow;
+	--danger: $danger;
+	--light: $light;
+	--dark: $dark;
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1280px;
+	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--font-family-monospace: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+/* ###### bootstrap ####### */
+@import "variables";
+@import "bootstrap/bootstrap-custom";
+@import "bootstrap/accordion";
+@import "bootstrap/alerts";
+@import "bootstrap/avatars";
+@import "bootstrap/badge";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/buttons";
+@import "bootstrap/cards";
+@import "bootstrap/carousel";
+@import "bootstrap/dropdown";
+@import "bootstrap/forms";
+@import "bootstrap/grid";
+@import "bootstrap/inputgroup";
+@import "bootstrap/modal";
+@import "bootstrap/nav";
+@import "bootstrap/pagination";
+@import "bootstrap/panels";
+@import "bootstrap/popover";
+@import "bootstrap/progress";
+@import "bootstrap/tables";
+@import "bootstrap/tags";
+@import "bootstrap/thumbnail";
+@import "bootstrap/tooltip";
+
+
+
+/* ###### custom ####### */
+
+@import "custom/components-cols";
+@import "custom/countdown";
+@import "custom/custom-styles";
+@import "custom/highlight";
+@import "custom/images";
+@import "custom/label";
+@import "custom/list";
+@import "custom/media";
+@import "custom/navbar";
+@import "custom/pricing";
+@import "custom/rating";
+@import "custom/tabs";
+@import "custom/timeline";
+
+
+
+/* ###### layout ####### */
+
+@import "layout/colors";
+@import "layout/flags";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/horizontal";
+@import "layout/icons";
+@import "layout/items";
+@import "layout/loaders";
+@import "layout/dark-style";
+@import "layout/rtl";
+@import "layout/sidebar";
+@import "layout/sidemenu";
+
+
+/* ###### lib ####### */
+
+@import "lib/customcontrol";
+@import "lib/custom-range";
+@import "lib/custom-switch";
+@import "lib/date-picker";
+@import "lib/forminputs";
+@import "lib/jqstool";
+@import "lib/jvector";
+@import "lib/range";
+@import "lib/select2";
+@import "lib/selectgroup";
+@import "lib/selectize";
+
+
+
+/* ###### template ####### */
+
+@import "template/admin-nav";
+@import "template/calendar";
+@import "template/chart";
+@import "template/chat";
+@import "template/email";
+@import "template/error";
+@import "template/ribbons";
+@import "template/usercard";
+@import "template/weathercard";
+@import "template/widgets";
+
+
+
+/* ###### util ####### */
+
+@import "util/alignment";
+@import "util/background";
+@import "util/border";
+@import "util/display";
+@import "util/float-elements";
+@import "util/height";
+@import "util/margin";
+@import "util/padding";
+@import "util/position";
+@import "util/typography";
+@import "util/width";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

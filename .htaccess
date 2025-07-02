@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redirect HTTP to HTTPS and non-www to www in a single rule
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\.bestdreamcar\.com$ [NC]
+RewriteRule ^(.*)$ https://www.bestdreamcar.com/$1 [R=301,L]

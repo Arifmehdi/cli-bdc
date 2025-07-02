@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phplaravel-1194462-4226380.cloudwaysapps.com/sitemap.xml
+
+Disallow:/auto-news/*/
+Disallow:/research/*/
+Disallow:/cars/find-dealership
+
+Disallow:/admin/login
+Disallow:/best-used-cars-for-sale/listing
+Disallow:/favourite/listing
+
+Sitemap: https://bestdreamcar.com/news/sitemap.xml
+Sitemap: https://bestdreamcar.com/research/sitemap.xml
+

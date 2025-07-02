@@ -1,0 +1,115 @@
+    /* Skeleton Loader Styles - Responsive for all devices */
+    .skeleton-loader {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .skeleton-card {
+        width: 100%;
+        min-height: 350px;
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Fixed height image container */
+    .skeleton-image {
+        min-height: 250px;
+        /* Fixed height for all devices */
+        background: #e0e0e0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .skeleton-content {
+        padding: 15px;
+        height: 220px;
+        /* Fixed height for content area */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .skeleton-line {
+        height: 12px;
+        background: #e0e0e0;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Different line lengths */
+    .skeleton-line.short {
+        width: 50%;
+    }
+
+    .skeleton-line.medium {
+        width: 70%;
+    }
+
+    .skeleton-line.long {
+        width: 90%;
+    }
+
+    /* Animation */
+    @keyframes shimmer {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+    .skeleton-shimmer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg,
+                transparent,
+                rgba(255, 255, 255, 0.5),
+                transparent);
+        animation: shimmer 1.5s infinite;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 767px) {
+
+        /* Mobile */
+        .skeleton-loader {
+            grid-template-columns: 1fr;
+        }
+
+        .skeleton-image {
+            height: 200px;
+            /* Slightly taller on mobile */
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+
+        /* Tablet */
+        .skeleton-loader {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (min-width: 1024px) {
+
+        /* Desktop */
+        .skeleton-loader {
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        }
+
+        .skeleton-image {
+            height: 160px;
+            /* Slightly shorter on desktop */
+        }
+    }

@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+
+Disallow: /articles/
+Disallow: /listing
+Disallow: /auto-news
+Disallow: /frontend/uploads/
+Disallow: /cars/forsale
+Disallow:/cars/find-dealership
+Disallow:/admin/login
+Disallow:/best-used-cars-for-sale/listing
+Disallow:/favourite/listing
+Disallow: /dash/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /used/
+Disallow: /used-cars-for-sale/
+Disallow: /best-used-cars-for-sale/
+Disallow: /cars-for-sale/
+Disallow: /dealer/
+Disallow: *listings/*?*drivetrain=
+Disallow: *listings/*?*transmission=
+Disallow: *listings/*?*engine=
+Disallow: /home.html
+Disallow: /home1.html
+Disallow: /*?*zip=
+Disallow: /*?*exteriorColors=
+
+
+
+
+Sitemap: https://www.bestdreamcar.com/blog/research/sitemap-research.xml
+Sitemap: https://www.bestdreamcar.com/blog/beyond-car/sitemap-beyond-car.xml
+

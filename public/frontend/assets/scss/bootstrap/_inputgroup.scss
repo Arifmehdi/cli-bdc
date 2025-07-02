@@ -1,0 +1,263 @@
+.input-group {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	width: 100%;
+	> {
+		.custom-file,
+		.custom-select,
+		.custom-file {
+			position: relative;
+			-ms-flex: 1 1 auto;
+			flex: 1 1 auto;
+			width: 1%;
+			margin-bottom: 0;
+		}
+		.custom-file:focus,
+		.custom-select:focus,
+		.custom-file:focus {
+			z-index: 3;
+		}
+		.custom-file+ {
+			.custom-file,
+			.custom-select,
+			.custom-file {
+				margin-left: -1px;
+			}
+		}
+		.custom-select+ {
+			.custom-file,
+			.custom-select,
+			.custom-file {
+				margin-left: -1px;
+			}
+		}
+		.custom-file+ {
+			.custom-file,
+			.custom-select,
+			.custom-file {
+				margin-left: -1px;
+			}
+		}
+		.custom-select:not(:last-child),
+		.custom-file:not(:last-child) {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+		.custom-select:not(:first-child),
+		.custom-file:not(:first-child) {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+		.custom-file {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+			align-items: center;
+			&:not(:last-child) .custom-file-label {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+				&::after {
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+				}
+			}
+			&:not(:first-child) .custom-file-label {
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				&::after {
+					border-top-left-radius: 0;
+					border-bottom-left-radius: 0;
+				}
+			}
+		}
+	}
+}
+
+.input-group-text,
+.input-group-text {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.input-group-text .btn,
+.input-group-text .btn {
+	position: relative;
+	z-index: 2;
+}
+
+.input-group-text {
+	.btn+ {
+		.btn,
+		.input-group-text {
+			margin-left: -1px;
+		}
+	}
+	.input-group-text+ {
+		.btn,
+		.input-group-text {
+			margin-left: -1px;
+		}
+	}
+}
+
+.input-group-text {
+	.btn+ {
+		.btn,
+		.input-group-text {
+			margin-left: -1px;
+		}
+	}
+	.input-group-text+ {
+		.btn,
+		.input-group-text {
+			margin-left: -1px;
+		}
+	}
+	margin-right: -1px;
+}
+
+.input-group-text {
+	margin-left: -1px;
+}
+
+.input-group-text {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: .375rem .75rem;
+	margin-bottom: 0;
+	font-size: .9375rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #3d4e67;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #f1f3f5;
+	border: 1px solid #d8dde6;
+	border-radius: 3px;
+	input {
+		&[type=checkbox],
+		&[type=radio] {
+			margin-top: 0;
+		}
+	}
+}
+
+.input-group> {
+	.input-group-text {
+		&:last-child> {
+			.btn:not(:last-child):not(.dropdown-toggle),
+			.input-group-text:not(:last-child) {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+		}
+		&:not(:last-child)> {
+			.btn,
+			.input-group-text {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+		}
+	}
+	.input-group-text> {
+		.btn,
+		.input-group-text {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+	}
+	.input-group-text> {
+		.btn,
+		.input-group-text {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+	}
+	.input-group-text {
+		&:first-child> {
+			.btn:not(:first-child),
+			.input-group-text:not(:first-child) {
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+		&:not(:first-child)> {
+			.btn,
+			.input-group-text {
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+}
+
+.input-group-text,
+.input-group-btn,
+.input-group-text {
+	font-size: .9375rem;
+}
+
+.input-group-text>.btn,
+.input-group-btn>.btn {
+	border-color: rgba(0, 40, 100, 0.12);
+}
+
+.input-group-text> {
+	.btn {
+		border-color: rgba(0, 40, 100, 0.12);
+	}
+	.input-group-text {
+		border-right: 0;
+	}
+}
+
+.input-group-text>.input-group-text {
+	border-left: 0;
+}
+
+.input-icon {
+	position: relative;
+	.custom-file {
+		&:not(:last-child),
+		&:not(:first-child) {
+			padding-left: 2.5rem;
+		}
+	}
+}
+
+.input-icon-addon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	color: $black;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	min-width: 2.5rem;
+	pointer-events: none;
+	&:last-child {
+		left: auto;
+		right: 0;
+	}
+}
+
+.input-icon .form-group.is-empty {
+	.custom-file {
+		margin-bottom: 0;
+	}
+	margin-bottom: 0;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+	margin-left: 0px;
+}

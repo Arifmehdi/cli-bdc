@@ -1,0 +1,279 @@
+/* home details page start here  */
+.front-btn{
+    background: darkcyan;
+    width:100%;
+    margin-bottom:15px;
+    color:white;
+    font-size:16px;
+}
+
+.front-btn:hover{
+    background: darkcyan;
+    color: white;
+    font-weight: 600;
+}
+
+.card-focus-header{
+    font-size:1.7rem
+}
+.card-focus-header-year{
+    color:#DF546A;
+    font-size:1.7rem
+}
+.card-focus-detail{
+    color:#000000;
+}
+
+.special-card{
+    background: rgb(139, 99, 146);
+    border-radius-top-left:3px;
+    border-radius-top-right:3px;
+}
+
+.financial-detail-card{
+    border:1px solid rgb(43, 69, 73);
+    border-radius: 5px 5px 0 0;
+    width:100%; background: rgb(126, 87, 133);
+    padding:0
+}
+
+.swiper-bottom-img {
+
+    width: 140px !important;
+    height: 80px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    /* opacity: 0.4; */
+}
+/* 
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+} */
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+}
+
+.deatailSwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.deatailSwiper {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+.deatailSwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    /* opacity: 0.4; */
+}
+
+/* .deatailSwiper .swiper-slide-thumb-active {
+    opacity: 1;
+} */
+
+/* .swiper-slide img {
+                              display: block;
+                              width: 100%;
+                              height: 100%;
+                              object-fit: cover;
+                            } */
+.details-slider-top {
+    display: block;
+    width: 100%;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.swipter-top-img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.swipter-top-img:hover .figer {
+    color: red
+}
+
+/* @media (max-width: 1279px) {
+    .swipter-top-img {
+        height: 100% !important;
+    }
+} */
+
+
+
+
+#social-links ul li {
+    float: left;
+    padding: 5px;
+
+}
+
+#social-links ul li a:hover {
+
+    color: rgb(41, 34, 34)
+}
+
+#social-links ul li a {
+    font-size: 15px;
+
+}
+
+#social-links ul li a:first-child {
+    margin-left: 2px
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dollar-sign {
+    position: absolute;
+    left: 10px;
+    top: 42%;
+    transform: translateY(-38%);
+    color: #8b8a8a;
+    font-size: 15px;
+}
+
+.dollar-sign-price {
+    position: absolute;
+    left: 10px;
+    top: 35.3%;
+    transform: translateY(-38%);
+    color: #8b8a8a;
+    font-size: 15px;
+}
+
+.common_calculator {
+
+    font-size: 13px;
+    padding-left: 23px;
+
+
+}
+
+.calculate_month {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.calculate_month:focus,
+.calculate_month.active {
+    border: none;
+    background-color: #222224;
+    color: white;
+    /* Light blue background when active */
+}
+
+.wishlist {
+    background: #080e1b;
+}
+
+/* home details page end here  */
+/* home details page media query end here  */
+/* @media (max-width: 767.98px) {
+    .hide-on-mobile {
+        display: none;
+    }
+} */
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+    .hide-on-phone {
+        display: none;
+    }
+}
+
+/* Small devices (tablets, portrait) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, landscape or small laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hide-on-laptop {
+        display: none;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hide-on-desktop {
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+    .hide-on-large {
+        display: none;
+    }
+}
